@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        .FS{
+            font-size: small;
+        }
+        .LS{
+            font-size: large;
+        }
+        /* #first-button{
+          color: rgb(232, 111, 111);  
+        } */
+        button:hover{
+            color: yellow;
+        }
+
+    .link-color:hover{
+        color: black;
+    }
+    #link-id:hover{
+        color: blueviolet;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- SIMPLE SELECTORS : 1. Element selector , 2. Class Selector, 3. ID Selector -->
+
+    <!-- ****************************************CLASS SELECTOR******************************************* -->
+
+    <!-- problem statement : you have given some heading apply it to the html file using selector  -->
+    <!-- h1,h2,h3 - font size - small  -->
+    <!-- h4,h5,h6 - font size - large  -->
+
+    <h1 class="FS">This is my first heading and i am going to apply font-size-small into this using css : selector</h1>
+    <h2 class="FS">This is my second heading</h2>
+    <h3 class="FS">this is my this heading</h3>
+    <br>
+    <h4 class="LS">This is my first heading and i am going to apply font-size-large into this using css : selector</h4>
+    <h5 class="LS">This is my second heading</h5>
+    <h6 class="LS">this is my this heading</h6>
+
+
+
+    <!-- *******************************************ID-SELECTOR************************************************** -->
+
+
+    <button id="first-button">submit</button>
+    <a class="link-color" id="link-id" href="https://www.google.com">go to google</a>
+
+    
+</body>
+</html>
