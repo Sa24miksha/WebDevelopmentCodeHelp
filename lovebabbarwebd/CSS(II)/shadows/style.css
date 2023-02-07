@@ -1,0 +1,29 @@
+h1{
+    text-shadow: 3px 3px 3px rgb(61, 226, 89);
+
+    /* text-shadow: 3px 3px 3px rgb(61, 226, 89), 6px 6px 6px red; */
+
+
+}
+
+.boxShadow{
+    background-color: rgb(202, 111, 111);
+    /* border: 2px solid black; */
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    padding: 60px;
+    box-shadow: 10px 10px 10px burlywood, 20px 20px 20px rgb(42, 110, 165); /*these are horizontal and vertical values*/
+    color: rgb(3, 2, 0);
+    /*text and shadow ka color are same thus add a color in the box shadow bracjet to change the color of the shadow*/
+    
+    /*when you add oe more dimension that is the third side then you will have see a blury effect in the shadow*/
+
+    /*you can also add multiple shadow by the following ways :-*/
+
+    /* box-shadow: 10px 10px burlywood, 20px 20px brown; */
+
+    /*by giving negative values we can change the direction of the the shadow*/
+    /* box-shadow: -10px -10px 10px burlywood ;  */
+
+}

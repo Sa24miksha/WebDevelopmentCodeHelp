@@ -1,0 +1,14 @@
+.dimension{
+    /*max height means this is the max height if the words or sentences goes beyon this would be cut out or overflow ho jayega*/
+    max-height: 100px;
+    border: 2px solid black;
+    /*we can scroll the content inside thebox*/
+    overflow: scroll;
+}
+
+.myDiv{
+    margin: 10px;
+    /*agar content ki height min height se kam hai toh box apne ap grow or shrink hone lagega , it will adjust on its own*/
+    min-height: 100px;
+    border: 2px solid black;
+}

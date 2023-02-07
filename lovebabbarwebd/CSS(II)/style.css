@@ -1,0 +1,27 @@
+.box{
+    border: 3px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-image: linear-gradient(orange,red); /*by default the gradient is directed from top to bottom*/
+    background-image: linear-gradient(to right, orange,red); /*while writing (to right) before the color in the linear gradient the gradient will move from left to right */
+    background-image: linear-gradient(to left, orange,red); /*while writing (to left) before the color in the linear gradient the gradient will move from left to right */
+}
+
+.myDiv{
+    border: 2px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    padding: 50px;
+    /*radial elepctical*/
+    background-image: radial-gradient(rgb(206, 37, 66) , yellow, blue);
+    /*radially circle :- */ 
+
+   /* background-image: radial-gradient(circle,rgb(206, 37, 66) , yellow, blue);*/
+   
+   /* assigning by % :- */
+   /* background-image: radial-gradient(red 5% , yellow 10%, blue 50%); */
+}
