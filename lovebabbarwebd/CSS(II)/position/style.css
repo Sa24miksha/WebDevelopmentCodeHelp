@@ -1,0 +1,41 @@
+/*UNDERSTANDING STATIC POSITION */
+
+/*p{
+    /* <!-- static positioning :- by default positioning of an html it will show will be arranged as it has been coded --> */
+
+    /* position: static; */
+
+/* }  */
+
+/*UNDERSTANDING RELATIVE POSITIONING*/
+ /* relative positioning :- top, left rigth , bottom ye sab properties ka use kar k box ko ya apne itam ko shift karne ko what we call relative positioning  */
+
+div{
+display: inline-block; /*on a same line with the given properties*/
+border: 2px solid black;
+width: 200px;
+height: 200px;
+background-color: darkseagreen;
+}
+
+#Box3{
+    position: relative;
+    top:50px;
+    left:50px;
+}
+
+/* #Box1{
+    position: fixed;
+} */
+.wrapper{
+    width: 1000vh;
+    height: 2000px;
+    background-color: yellow;
+    
+}
+
+#Box4{
+    position: sticky;
+    top: 0px;
+}
+
