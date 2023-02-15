@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+}
+
+.container{
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column;  */
+    /*boxes will be arranged vertically */ 
+
+    flex-direction: row; 
+   /*boxes will be arranged horizontally */
+
+    /*flex-direction: row-reverse;
+    /* boxes will be arranged in horizontally in opposite direction*/
+
+   /* flex-direction: column-reverse;
+   /*boxes will be arranged in vertically in opposite direction*/
+   
+
+   /*to keep the width intact even if we are squeezing it through inspect*/
+   flex-wrap: wrap;
+
+   /* flex-flow:/* to write the above two properties that is flex-direction and flex-wrap in one line .*/ 
+
+
+   /*JUSTIFY CONTENT - arranging all the items inside the flex box*/
+   /* justify-content: flex-start;  */
+   /*to align all the itms at the start or leftmost corner*/
+
+   /* justify-content: flex-end;  */
+   /*to align all the itms at the end or rightmost corner*/
+
+   /* justify-content: center; */
+   /*to align all the itms at the center*/
+
+
+   /* justify-content: space-around; */
+   /*all the items will be equally distributed in the entire page , boxes k beech mai equal spacing */
+
+   /* justify-content: space-evenly; */
+   /*boxes k beech m equal spaces*/
+
+   /* justify-content: space-between; */
+   /*first and last box border se attach hojayenge baki k beech m equal spaces*/
+
+   /********************************************************************************/
+
+   /* ALLIGN-ITEMS :- cross axis k upar items of allign karna is done by this property  */
+
+   /* align-items: flex-start ; will be placed at start */
+   /* align-items: flex-end ; will be placed at end */
+   /* align-items: center ; will be placed at center */
+   /* align-items: stretch; height k behalf stretch hojayega */
+
+
+   /*boxes k beech m gaps lane ko*/
+   gap: 10px;
+
+
+   /*ALIGN-CONTENT :-*/
+   /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    align-content: center;
+   /* align-content: space-between;
+   align-content: space-around;
+   align-content: space-evenly;  */ 
+
+
+}
+
+
+.box{
+    border: 1px solid brown;
+    background-color: aquamarine;
+    width: 100px;
+    /* flex-grow: 30; */
+    flex-shrink: 70;
+}
+
+/* ORDER :- if you wish to shift the boxes one after the another or change the positions of the box we use order and target it by id */
+
+#box1{
+    order: 5;
+}
+ #box3{
+    order: 8;
+    align-self: flex-start;
+}
+
+/* FLEX-GROW :- this property is used to increase the width of the box and hence cover the container with equal width */
+
+/* FLEX-BASIS :- IS USED TO GIVE THE WIDTH  */
+
+/* ALIGN-SELF :- single item align   */
