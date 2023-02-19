@@ -1,0 +1,55 @@
+.container{
+    width:100%;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.box{
+   border: 2px solid rgb(225, 31, 31);
+   background-color: aqua;
+   height:212px;
+   width:212px;
+   /*ANIMATION*/
+
+   animation-name: samiksha; /*naam hai samiksha*/
+
+   animation-duration: 3s; /*3 sec mai puri animation complete karni hai*/
+
+   animation-iteration-count:4; /*4 baar repeat karna hai animation ko*/
+
+   animation-timing-function: ease-in; /*ease in use karna hai matlb starting alow and eding fast hogi*/
+
+   animation-delay:1s; /*animation start karne se pehle ek sec ka delay rakhna */
+
+   animation-direction:normal; /*animation ulta chalega*/
+    
+  animation-fill-mode:forward;
+
+  /*forward :- animation ending state par ruk jayegi*/
+  /* backward :- animation starting m ruk jayegi  */
+}
+
+@keyframes samiksha{
+
+    0%{
+    width: 212px;
+    background-color:orange;
+    }
+
+    50%{
+    width: 35%;
+    background-color: white;
+    }
+    100%{
+
+        width: 100%;
+        background-color:green;
+    }
+    /* from{
+     width: 212px;
+    }
+    to{
+     width: 800px;
+    } */
+}
